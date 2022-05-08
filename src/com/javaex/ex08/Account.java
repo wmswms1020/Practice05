@@ -1,20 +1,38 @@
 package com.javaex.ex08;
 
 public class Account {
-
+	//필드
 	private String accountNo;
 	private int balance;
-
-	// 생성자 작성
-	public Account(String accountNo) {
-
+	
+	
+	
+	//생성자
+	public Account() {}
+	
+	
+	public Account(String accountNo, int balance) {
+		super();
 		this.accountNo = accountNo;
+		this.balance = balance;
 	}
-	// 필요한 메소드 작성
-	public void deposit(int deposit) {
-		this.balance += deposit;
-	}
-	public void withdraw(int withdraw) {
-		
-	}
+
+
+	//메소ㅓ드 gs
+
+	
+	//메소드이;ㄹ반
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
